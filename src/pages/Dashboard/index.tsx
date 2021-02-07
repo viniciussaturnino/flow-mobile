@@ -1,18 +1,14 @@
 /* eslint-disable import/no-unresolved */
 import React from 'react';
 
-import logoImg from '../../assets/logo.png';
+import Header from '../../components/Header';
 
-import { Container, Header, Item, Image, Icon } from './styles';
+import { Container } from './styles';
 
 const Dashboard: React.FC = () => {
   return (
     <Container>
-      <Header>
-        <Item />
-        <Image source={logoImg} />
-        <Icon name="log-out" size={27} color="#00dcb7" />
-      </Header>
+      <Header />
     </Container>
   );
 };

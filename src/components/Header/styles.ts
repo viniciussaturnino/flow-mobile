@@ -2,7 +2,11 @@ import styled from 'styled-components/native';
 import featherIcon from 'react-native-vector-icons/Feather';
 
 export const Container = styled.View`
-  flex: 1;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  elevation: 4;
 `;
 
 export const Item = styled.View`
@@ -11,16 +15,9 @@ export const Item = styled.View`
   margin-left: 10px;
 `;
 
-export const Header = styled.View`
-  padding: 10px;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-`;
-
 export const Image = styled.Image`
-  width: 42px;
-  height: 42px;
+  width: 65px;
+  height: 43px;
 `;
 
 export const Icon = styled(featherIcon)`
