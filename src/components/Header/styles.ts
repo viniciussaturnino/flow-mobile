@@ -6,7 +6,6 @@ export const Container = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  elevation: 4;
 `;
 
 export const Item = styled.View`

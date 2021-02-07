@@ -17,7 +17,12 @@ const SignIn: React.FC = () => {
       <Image source={logoImg} style={{ marginBottom: 100 }} />
       <Input name="email" placeholder="E-mail" label="E-mail" />
       <Input name="password" placeholder="Senha" label="Senha" />
-      <Button onPress={() => navigation.navigate('Dashboard')}>ENTRAR</Button>
+      <Button
+        onPress={() => navigation.navigate('Dashboard')}
+        style={{ marginTop: 90 }}
+      >
+        ENTRAR
+      </Button>
     </Container>
   );
 };

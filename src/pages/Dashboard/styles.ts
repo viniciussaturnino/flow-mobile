@@ -26,3 +26,19 @@ export const Image = styled.Image`
 export const Icon = styled(featherIcon)`
   margin-right: 10px;
 `;
+
+export const CardList = styled.View`
+  align-items: center;
+`;
+
+export const AddButton = styled.TouchableOpacity`
+  position: absolute;
+  right: 27px;
+  bottom: 65px;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 29px;
+  background: #00dcb7;
+`;
